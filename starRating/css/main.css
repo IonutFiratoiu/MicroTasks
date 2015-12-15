@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.star {
+	display: inline-block;
+	border: none;
+	color: #ccc;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+.star.active {
+	color: #000;
+}
+
+.rating {
+	border: 2px solid #000;
+	width: 30px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+}
