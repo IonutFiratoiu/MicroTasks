@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+}
+
+#container {
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+#container .ok {
+	display: none;
+}
+
+#container .not-ok {
+	background-color: red;
+}
+
+#container.valid .ok {
+	display: inline-block;
+	background-color: green;
+}
+
+#container.valid .not-ok {
+	display: none;
+}
+
+form .inputtext {
+	display: inline-block;
+}
+
+form .second {
+	display: inline-block;
+}
