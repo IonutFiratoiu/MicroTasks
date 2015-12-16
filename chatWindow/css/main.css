@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.container {
+	margin: 20px 0 0 20px;
+	width: 400px;
+	height: 300px;
+}
+
+#box {
+	width: 400px;
+	height: 300px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	overflow-y: scroll; 
+	display: inline-block;
+}
+
+.insert {
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+}
+
+#box img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.chat-text {
+	display: inline-block;
+}
+
+.rightofimg {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.rightofimg p {
+	display: block;
+	color: #eee;
+	font-size: 15px;
+}
+
+.rightofimg .chat-text {
+	display: block;
+	color: #000;
+	background-color: #6c9f00;
+	font-size: 25px;
+}
