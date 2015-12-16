@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.main {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#bar {
+	width: 300px;
+	display: inline-block;
+	margin-right: 0;
+}
+
+#generate {
+	display: inline-block;
+}
+
